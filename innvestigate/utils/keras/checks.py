@@ -260,7 +260,7 @@ def is_network(layer):
     """
     Is network in network?
     """
-    return isinstance(layer, keras.engine.topology.Network)
+    return isinstance(layer, keras.engine.network.Network)
 
 
 def is_conv_layer(layer, *args, **kwargs):
